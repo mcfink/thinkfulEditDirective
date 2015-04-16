@@ -1,0 +1,1 @@
+angular.module("editApp",[]).directive("makeEditable",function(){return{restrict:"A",transclude:!0,templateUrl:"text-chunk.html",scope:!0}});
